@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '22'
           cache: npm
-      - run: npm ci
+      - run: npm install --no-audit --no-fund
       - run: npm run import:validate
       - run: npm run test
       - run: npm run build
