@@ -1,4 +1,326 @@
 {
   "version": 1,
-  "exercises": []
+  "exercises": [
+    {
+      "id": "forehead-circles",
+      "title": "Мягкий массаж лба",
+      "englishTitle": "Gentle Forehead Circles",
+      "areas": [
+        "forehead",
+        "general"
+      ],
+      "focus": "ЛОБ",
+      "icon": "forehead",
+      "instructions": [
+        "Сядь прямо, опусти плечи и расслабь лоб.",
+        "Чистыми подушечками двух-трёх пальцев касайся кожи посередине лба, без сильного давления.",
+        "Выполняй небольшие медленные круги, постепенно смещаясь к вискам. Не тяни кожу и не дави на глаза.",
+        "Дыши ровно и позволь мышцам лица расслабиться."
+      ],
+      "voiceCues": [
+        {
+          "atSecond": 0,
+          "text": "Расслабь плечи и лоб. Мягко поставь подушечки пальцев на середину лба.",
+          "visibleText": "Подушечки пальцев — на лбу"
+        },
+        {
+          "atSecond": 12,
+          "text": "Медленно выполняй маленькие круги и постепенно перемещайся к вискам. Без сильного давления.",
+          "visibleText": "Маленькие круги к вискам"
+        },
+        {
+          "atSecond": 28,
+          "text": "Не растягивай кожу. Сохраняй спокойное дыхание.",
+          "visibleText": "Дыши ровно, не растягивай кожу"
+        }
+      ],
+      "commonMistakes": [
+        "Сильное трение или растягивание кожи.",
+        "Давление на глазницы.",
+        "Напряжённые плечи и задержка дыхания."
+      ],
+      "safetyNotes": [
+        "Только лёгкое, комфортное касание; прекращай при боли или раздражении кожи.",
+        "При повреждениях кожи или недавних процедурах на лице сначала уточни ограничения у специалиста.",
+        "При лицевом парезе или неврологических симптомах выполняй индивидуальные рекомендации специалиста."
+      ],
+      "sources": [
+        {
+          "title": "Worcestershire Acute Hospitals NHS — Facial Exercises and Massage Routine",
+          "url": "https://www.worcsacute.nhs.uk/leaflets/facial-exercises-and-massage-routine-2/"
+        }
+      ],
+      "approved": true,
+      "durationSeconds": 40,
+      "imagePath": "exercises/forehead-circles/card.svg"
+    },
+    {
+      "id": "temple-circles",
+      "title": "Расслабление висков и бровей",
+      "englishTitle": "Temple and Brow Relaxation",
+      "areas": [
+        "forehead",
+        "eyes"
+      ],
+      "focus": "ВИСКИ И БРОВИ",
+      "icon": "temples",
+      "instructions": [
+        "Расслабь лицо и мягко сомкни губы.",
+        "Положи подушечки пальцев на виски, вдали от глазных яблок.",
+        "Делай небольшие медленные круги без сильного нажима.",
+        "Перемести пальцы чуть выше бровей и повтори мягкие круговые движения.",
+        "Плечи остаются опущенными, дыхание — ровным."
+      ],
+      "voiceCues": [
+        {
+          "atSecond": 0,
+          "text": "Расположи подушечки пальцев на висках. Касание лёгкое.",
+          "visibleText": "Касание висков — очень мягкое"
+        },
+        {
+          "atSecond": 14,
+          "text": "Сделай несколько спокойных круговых движений. Не дави на глаза.",
+          "visibleText": "Медленные круги, без нажима"
+        },
+        {
+          "atSecond": 28,
+          "text": "Перенеси пальцы над бровями и повтори лёгкие круги.",
+          "visibleText": "Перемести пальцы выше бровей"
+        }
+      ],
+      "commonMistakes": [
+        "Надавливание на глазные яблоки или веки.",
+        "Слишком быстрые и интенсивные движения.",
+        "Сморщивание лба во время массажа."
+      ],
+      "safetyNotes": [
+        "Не дави на глазницы и глаза.",
+        "Если есть дискомфорт, головокружение или раздражение кожи — остановись."
+      ],
+      "sources": [
+        {
+          "title": "Worcestershire Acute Hospitals NHS — Facial Massage",
+          "url": "https://www.worcsacute.nhs.uk/~documents/documents/patient-information-leaflets-a-z/waht-pi-2349-facial-exercises-and-massage-routine-v1pdf/?layout=file"
+        }
+      ],
+      "approved": true,
+      "durationSeconds": 40,
+      "imagePath": "exercises/temple-circles/card.svg"
+    },
+    {
+      "id": "cheekbone-gentle",
+      "title": "Мягкое движение по скулам",
+      "englishTitle": "Gentle Cheekbone Glide",
+      "areas": [
+        "eyes",
+        "cheeks"
+      ],
+      "focus": "СКУЛЫ",
+      "icon": "cheekbone",
+      "instructions": [
+        "Вымой руки и, при необходимости, нанеси подходящее увлажняющее средство, чтобы избежать трения.",
+        "С очень лёгким касанием проведи подушечками пальцев по костному краю скулы — от боковой части лица в сторону носа, не приближаясь к глазам.",
+        "Продолжи движение по боковой поверхности носа вверх между бровей, затем над бровями в сторону висков.",
+        "Повторяй медленно, не растягивая кожу. Не касайся глазного яблока."
+      ],
+      "voiceCues": [
+        {
+          "atSecond": 0,
+          "text": "Лёгким касанием начни движение по скулам. Не надавливай на глазницы.",
+          "visibleText": "Лёгкое скольжение по скулам"
+        },
+        {
+          "atSecond": 14,
+          "text": "Плавно двигайся к носу, затем над бровями к вискам.",
+          "visibleText": "К носу, над бровями, к вискам"
+        },
+        {
+          "atSecond": 29,
+          "text": "Сохраняй контакт очень мягким, не растягивай кожу.",
+          "visibleText": "Не дави на область глаз"
+        }
+      ],
+      "commonMistakes": [
+        "Давление на глаза или внутренний угол глаза.",
+        "Движение по сухой коже с сильным трением.",
+        "Попытки усилить движение до болезненных ощущений."
+      ],
+      "safetyNotes": [
+        "Область вокруг глаз очень чувствительная. Не дави на глазные яблоки.",
+        "При раздражении, боли или недавних косметологических процедурах пропусти упражнение."
+      ],
+      "sources": [
+        {
+          "title": "University Hospitals Plymouth NHS — Facial Palsy Booklet (Eye/Cheekbone massage)",
+          "url": "https://www.plymouthhospitals.nhs.uk/display-pil/pil-facial-palsy-booklet-4062"
+        }
+      ],
+      "approved": true,
+      "durationSeconds": 40,
+      "imagePath": "exercises/cheekbone-gentle/card.svg"
+    },
+    {
+      "id": "cheek-circles",
+      "title": "Нежный массаж щёк",
+      "englishTitle": "Gentle Cheek Circles",
+      "areas": [
+        "cheeks",
+        "nasolabial"
+      ],
+      "focus": "ЩЁКИ",
+      "icon": "cheeks",
+      "instructions": [
+        "Сядь удобно и расслабь челюсть.",
+        "Помести подушечки пальцев на мясистую часть щёк, не на область глаз.",
+        "Выполняй медленные небольшие круговые движения вверх по щекам.",
+        "Постепенно перемещайся от области возле носа к боковым частям лица, не растягивая кожу.",
+        "Сохраняй естественное дыхание и очень лёгкое давление."
+      ],
+      "voiceCues": [
+        {
+          "atSecond": 0,
+          "text": "Положи подушечки пальцев на щёки. Дай челюсти расслабиться.",
+          "visibleText": "Расслабь челюсть"
+        },
+        {
+          "atSecond": 12,
+          "text": "Медленно массируй щёки небольшими круговыми движениями.",
+          "visibleText": "Маленькие мягкие круги"
+        },
+        {
+          "atSecond": 27,
+          "text": "Переходи ближе к боковой поверхности лица. Избегай сильного давления.",
+          "visibleText": "От носа к боковым частям лица"
+        }
+      ],
+      "commonMistakes": [
+        "Сильный нажим на кожу и зубы.",
+        "Массирование слишком близко к глазам.",
+        "Интенсивное растягивание кожи."
+      ],
+      "safetyNotes": [
+        "Не массируй воспалённую или повреждённую кожу.",
+        "При болезненности области челюсти или кожи остановись."
+      ],
+      "sources": [
+        {
+          "title": "Worcestershire Acute Hospitals NHS — Facial Massage",
+          "url": "https://www.worcsacute.nhs.uk/~documents/documents/patient-information-leaflets-a-z/waht-pi-2349-facial-exercises-and-massage-routine-v1pdf/?layout=file"
+        }
+      ],
+      "approved": true,
+      "durationSeconds": 40,
+      "imagePath": "exercises/cheek-circles/card.svg"
+    },
+    {
+      "id": "relaxed-jaw",
+      "title": "Положение покоя для челюсти",
+      "englishTitle": "Relaxed Jaw Position",
+      "areas": [
+        "jawline",
+        "general"
+      ],
+      "focus": "ЧЕЛЮСТЬ",
+      "icon": "jaw",
+      "instructions": [
+        "Сядь прямо, опусти плечи и расслабь мышцы лица.",
+        "Мягко коснись кончиком языка нёба за верхними передними зубами — примерно как при произнесении звука «н».",
+        "Оставь верхние и нижние зубы слегка разомкнутыми. Губы могут быть мягко сомкнуты.",
+        "Не стискивай зубы и не вдавливай язык в нёбо.",
+        "Спокойно дыши, удерживая расслабленное положение челюсти."
+      ],
+      "voiceCues": [
+        {
+          "atSecond": 0,
+          "text": "Сядь удобно. Кончик языка мягко касается нёба за верхними зубами.",
+          "visibleText": "Язык легко касается нёба"
+        },
+        {
+          "atSecond": 14,
+          "text": "Немного разомкни зубы, сохраняя губы расслабленными. Не сжимай челюсть.",
+          "visibleText": "Зубы слегка разомкнуты"
+        },
+        {
+          "atSecond": 28,
+          "text": "Отпусти напряжение в лице. Дыши мягко и свободно.",
+          "visibleText": "Ровное дыхание, без напряжения"
+        }
+      ],
+      "commonMistakes": [
+        "Сильное сжатие зубов.",
+        "Слишком сильное давление языком на нёбо.",
+        "Широкое открывание рта или выдвижение нижней челюсти."
+      ],
+      "safetyNotes": [
+        "Прекращай упражнение при боли, болезненном щелчке или блокировке челюсти.",
+        "При стойких проблемах с челюстным суставом проконсультируйся с врачом или стоматологом."
+      ],
+      "sources": [
+        {
+          "title": "NHS — Temporomandibular Disorder",
+          "url": "https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/"
+        },
+        {
+          "title": "Worcestershire Acute Hospitals NHS — TMJ Pain Physiotherapy",
+          "url": "https://www.worcsacute.nhs.uk/documents/documents/patient-information-leaflets-a-z/temporomandibular-joint-tmj-pain-physiotherapy-management/?layout=file"
+        }
+      ],
+      "approved": true,
+      "durationSeconds": 40,
+      "imagePath": "exercises/relaxed-jaw/card.svg"
+    },
+    {
+      "id": "gentle-chin-tuck",
+      "title": "Мягкое вытяжение шеи",
+      "englishTitle": "Gentle Chin Tuck",
+      "areas": [
+        "neck",
+        "jawline"
+      ],
+      "focus": "ШЕЯ",
+      "icon": "neck",
+      "instructions": [
+        "Сядь или встань прямо, расслабив плечи.",
+        "Держи взгляд прямо. Не наклоняй голову вниз и не запрокидывай её.",
+        "Плавно перемести подбородок строго назад, словно делаешь небольшой «двойной подбородок».",
+        "Удерживай положение примерно три секунды и расслабься.",
+        "Повтори медленно, без боли и без сильного усилия."
+      ],
+      "voiceCues": [
+        {
+          "atSecond": 0,
+          "text": "Выпрями спину и опусти плечи. Смотри прямо.",
+          "visibleText": "Спина ровная, взгляд вперёд"
+        },
+        {
+          "atSecond": 12,
+          "text": "Очень мягко перемести подбородок назад, не опуская голову. Удержи три секунды.",
+          "visibleText": "Подбородок назад, не вниз"
+        },
+        {
+          "atSecond": 27,
+          "text": "Вернись в нейтральное положение. Повторяй медленно, без боли.",
+          "visibleText": "Отпусти и повтори плавно"
+        }
+      ],
+      "commonMistakes": [
+        "Наклон головы к груди вместо смещения назад.",
+        "Запрокидывание головы.",
+        "Резкие движения и напряжение в плечах."
+      ],
+      "safetyNotes": [
+        "Не выполняй движение через боль, головокружение или онемение.",
+        "При заболеваниях шейного отдела, недавних травмах или неврологических симптомах согласуй упражнения со специалистом."
+      ],
+      "sources": [
+        {
+          "title": "Worcestershire Acute Hospitals NHS — TMJ Pain Physiotherapy (Chin Tucks)",
+          "url": "https://www.worcsacute.nhs.uk/documents/documents/patient-information-leaflets-a-z/temporomandibular-joint-tmj-pain-physiotherapy-management/?layout=file"
+        }
+      ],
+      "approved": true,
+      "durationSeconds": 40,
+      "imagePath": "exercises/gentle-chin-tuck/card.svg"
+    }
+  ]
 }
