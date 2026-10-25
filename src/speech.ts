@@ -1,0 +1,4 @@
+let utterance:SpeechSynthesisUtterance|null=null;
+export function stopSpeech(){if('speechSynthesis' in window){window.speechSynthesis.cancel();}utterance=null;}
+export function speak(text:string,enabled:boolean){stopSpeech();if(!enabled||!('speechSynthesis' in window)||!text)return;utterance=new SpeechSynthesisUtterance(text);utterance.lang='ru-RU';utterance.rate=.9;const voices=window.speechSynthesis.getVoices();const voice=voices.find(v=>v.lang.toLowerCase().startsWith('ru'));if(voice)utterance.voice=voice;try{window.speechSynthesis.speak(utterance);}catch{ /* Speech is optional. */ }}
+export function beep(enabled:boolean){if(!enabled)return;try{const ctx=new AudioContext();const osc=ctx.createOscillator();const gain=ctx.createGain();osc.frequency.value=660;gain.gain.value=.045;osc.connect(gain).connect(ctx.destination);osc.start();osc.stop(ctx.currentTime+.12);osc.onended=()=>void ctx.close();}catch{ /* Audio is optional. */ }}
