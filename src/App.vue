@@ -31,7 +31,7 @@ onMounted(async()=>{
   if(!response.ok)throw new Error('Библиотека пока не загружена');
   const data=await response.json() as Manifest;
   library.value=(data.exercises??[]).filter(e=>e.approved && e.imagePath && e.durationSeconds>0);
- }catch(e){error=e instanceof Error?e.message:'Не удалось загрузить библиотеку';}
+ }catch(e){error.value=e instanceof Error?e.message:'Не удалось загрузить библиотеку';}
  finally{loading.value=false;}
  document.addEventListener('visibilitychange',onVisibility);
 });
